@@ -15,7 +15,7 @@ mode        : selfcontained # {standalone, draft}
 ---
 
 
-```{r setup, cache = F, echo = F, message = F, warning = F, tidy = F}
+```{r setup, cache = FALSE, echo = FALSE, message = FALSE, warning = FALSE, tidy = FALSE}
 # make this an external chunk that can be included in any file
 library(knitr)
 options(width = 100)
@@ -34,9 +34,7 @@ knit_hooks$set(plot = knitr:::hook_plot_html)
 
 # Reproducible research
 
-Have you heard about reproducibile research?
-Have you heard about open research?
-TEST
+Activity.
 
 ---
 
@@ -52,17 +50,29 @@ Being reproducible is a prerequisite for being replicable; at a minimum your wor
 
 ## Reproducibility crisis
 
-Less than 40% of replications of well-known Psychology studies had significant results 
+Less than 40% of replications of well-known Psychology studies had significant results:
 
-<img src="../../../assets/img/reproducibility-intro/psychology-replication-paper.jpeg" height=100>  _Open Science Collaboration. "Estimating the reproducibility of psychological science." Science 349.6251 (2015): aac4716_
+<center><img src="../../presentations/assets/img/reproducibility-intro/psychology-replication-paper.jpg" height=300></center>
+<font size = 2 >"Open Science Collaboration. "Estimating the reproducibility of psychological science." Science 349.6251 (2015): aac4716.
+"</font>
 
-..And only 11% of replications of well-known cancer biology studies had significant results. _Begley, C. Glenn, and Lee M. Ellis. "Drug development: Raise standards for preclinical cancer research." Nature 483.7391 (2012): 531._
+Only 11% of replications of well-known cancer biology studies had significant results. 
+
+<font size = 2 >Begley, C. Glenn, and Lee M. Ellis. "Drug development: Raise standards for preclinical cancer research." Nature 483.7391 (2012): 531.</font>
 
 ---
 
-## Most researchers think there is some kind of problem
+## Most researchers think there is a problem with reproducibility
 
-<img src="../../../assets/img/reproducibility-intro/is-there-a-crisis.jpeg" height=100>  _Baker, Monya. "1,500 scientists lift the lid on reproducibility." Nature News 533.7604 (2016): 452_
+<center><img src="../../presentations/assets/img/reproducibility-intro/is-there-a-crisis.jpeg" height=400></center>
+<center><font size = 2 >Baker, Monya. "1,500 scientists lift the lid on reproducibility." Nature News 533.7604 (2016): 452_</font></center>
+
+---
+
+## Most researchers have failed to reproduce a result
+
+<center><img src="../../presentations/assets/img/reproducibility-intro/failed-to-reproduce.jpeg" height=400></center>
+Of the scientists surveyed, __over 70% of scientists surveyed have experienced failure to reproduce other's results__ and __over 50% have failed to reproduce their own results__.
 
 ---
 
