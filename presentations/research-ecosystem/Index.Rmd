@@ -1,0 +1,56 @@
+---
+title: "Data analysis best practice"
+subtitle: "Your research ecosystem"
+author: "Natalie Thurlby"
+highlighter: highlight.js
+hitheme: tomorrow
+job: Data scientist, Jean Golding Institute
+logo: 
+mode: selfcontained
+framework: io2012
+url:
+  assets: ../assets
+  lib: ../librariesNew
+widgets: mathjax
+output: ioslides_presentation
+
+---
+
+## R Markdown
+
+```{r setup, cache = FALSE, echo = FALSE, message = FALSE, warning = FALSE, tidy = FALSE}
+# make this an external chunk that can be included in any file
+
+options(width = 100)
+opts_chunk$set(eval=TRUE, results = 'markup', include=TRUE, message = FALSE, error = FALSE, warning = FALSE, comment = NA, fig.align = 'center', dpi = 100, tidy = F, cache.path = '.cache/', fig.path = 'fig/')
+
+options(xtable.type = 'html')
+# knit_hooks$set(inline = function(x) {
+#   if(is.numeric(x)) {
+#     round(x, getOption('digits'))
+#   } else {
+#     paste(as.character(x), collapse = ', ')
+#   }
+# })
+knit_hooks$set(plot = knitr:::hook_plot_html)
+```
+
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
