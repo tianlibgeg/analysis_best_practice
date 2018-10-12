@@ -34,15 +34,31 @@ knit_hooks$set(plot = knitr:::hook_plot_html)
 
 ## Overview
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+First explain:
+* IDEs
+* Version control (git)
+* Github
+* Literate programming
+* Open Science Framework
 
-## Slide with R Output
+Then practice!
 
-```{r cars, echo = TRUE}
-summary(cars)
-```
+## IDEs
+
+IDEs are Integrated Development Environments - they let you do development in one place. 
+
+We're using !(RStudio)[] today, but really rate !(SublimeText)[].
+
+IDEs usually have:
+* Editor
+* Compiler or interpreter
+* Debugger
+* Sometimes extra stuff
+
+## Version Control with Git
+
+## GitHub
+
 
 ## Slide with Plot
 
