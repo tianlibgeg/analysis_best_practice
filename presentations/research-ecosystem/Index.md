@@ -1,27 +1,23 @@
 ---
 title: "Data analysis best practice"
-subtitle: "Your research ecosystem"
+subtitle: "Research Ecosystem"
 author: "Natalie Thurlby"
 highlighter: highlight.js
 hitheme: tomorrow
 job: Data scientist, Jean Golding Institute
-logo: 
+# logo: jgi-logo.jpg
 mode: selfcontained
 framework: io2012
 url:
   assets: ../assets
   lib: ../librariesNew
 widgets: mathjax
-output: ioslides_presentation
-
 ---
 
-## R Markdown
 
 
 
-
-## Slide with Bullets
+## Overview
 
 - Bullet 1
 - Bullet 2

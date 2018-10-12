@@ -1,22 +1,23 @@
 ---
 title: "Data analysis best practice"
-subtitle: "Reproducible research"
+subtitle: "Reproducible Research"
 author: "Natalie Thurlby"
 highlighter: highlight.js
 hitheme: tomorrow
 job: Data scientist, Jean Golding Institute
-# logo: jgi-logo.jpg
+logo: 
 mode: selfcontained
 framework: io2012
 url:
   assets: ../assets
   lib: ../librariesNew
 widgets: mathjax
+output: ioslides_presentation
 ---
 
 ```{r setup, cache = F, echo = F, message = F, warning = F, tidy = F}
 # make this an external chunk that can be included in any file
-library(knitr)
+
 options(width = 100)
 opts_chunk$set(eval=T, results = 'markup', include=T, message = F, error = F, warning = F, comment = NA, fig.align = 'center', dpi = 100, tidy = F, cache.path = '.cache/', fig.path = 'fig/')
 
@@ -30,7 +31,6 @@ options(xtable.type = 'html')
 # })
 knit_hooks$set(plot = knitr:::hook_plot_html)
 ```
-
 
 # Reproducible research
 ---

@@ -1,19 +1,19 @@
 ---
 title: "Data analysis best practice"
-subtitle: "Reproducible research"
+subtitle: "Reproducible Research"
 author: "Natalie Thurlby"
 highlighter: highlight.js
 hitheme: tomorrow
 job: Data scientist, Jean Golding Institute
-# logo: jgi-logo.jpg
+logo: 
 mode: selfcontained
 framework: io2012
 url:
   assets: ../assets
   lib: ../librariesNew
 widgets: mathjax
+output: ioslides_presentation
 ---
-
 
 
 
