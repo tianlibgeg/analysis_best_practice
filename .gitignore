@@ -33,6 +33,7 @@ rsconnect/
 !presentations/assets/**/*.png
 *.html
 *.pptx
+*.xlsm
 *.jpeg
 !resources/CourseraDataScience/**/*.jpeg
 !presentations/assets/**/*.jpeg
