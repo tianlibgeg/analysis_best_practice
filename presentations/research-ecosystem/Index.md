@@ -19,26 +19,31 @@ widgets: mathjax
 
 ## Overview
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+First explain:
+* IDEs
+* Version control (git)
+* Github
+* Literate programming
+* Open Science Framework
 
-## Slide with R Output
+Then practice!
 
+## IDEs
 
-```r
-summary(cars)
-```
+IDEs are Integrated Development Environments - they let you do development in one place. 
 
-```
-     speed           dist       
- Min.   : 4.0   Min.   :  2.00  
- 1st Qu.:12.0   1st Qu.: 26.00  
- Median :15.0   Median : 36.00  
- Mean   :15.4   Mean   : 42.98  
- 3rd Qu.:19.0   3rd Qu.: 56.00  
- Max.   :25.0   Max.   :120.00  
-```
+We're using !(RStudio)[] today, but really rate !(SublimeText)[].
+
+IDEs usually have:
+* Editor
+* Compiler or interpreter
+* Debugger
+* Sometimes extra stuff
+
+## Version Control with Git
+
+## GitHub
+
 
 ## Slide with Plot
 
