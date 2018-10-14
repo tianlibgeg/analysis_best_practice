@@ -16,7 +16,6 @@ widgets: mathjax
 
 
 
-
 ## Overview
 
 First explain:
@@ -30,10 +29,12 @@ Then practice!
 
 ## IDEs
 
+*** left
 IDEs are Integrated Development Environments - they let you do development in one place. 
 
-We're using !(RStudio)[] today, but really rate !(SublimeText)[].
+We're using ![R Studio]() today, but really rate ![SublimeTest](SublimeText).
 
+*** right
 IDEs usually have:
 * Editor
 * Compiler or interpreter
@@ -44,13 +45,13 @@ IDEs usually have:
 
 ## GitHub
 
+## Markdown 
 
-## Slide with Plot
+## GitHub Excercise
 
+## Making RStudio play with GitHub
 
-```r
-plot(pressure)
-```
+## Literate programming
 
-<div class="rimage center"><img src="fig/pressure-1.png" title="plot of chunk pressure" alt="plot of chunk pressure" class="plot" /></div>
+## Open Science Framework
 

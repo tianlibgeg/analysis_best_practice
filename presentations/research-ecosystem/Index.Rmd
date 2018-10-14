@@ -31,7 +31,6 @@ options(xtable.type = 'html')
 knit_hooks$set(plot = knitr:::hook_plot_html)
 ```
 
-
 ## Overview
 
 First explain:
@@ -45,10 +44,12 @@ Then practice!
 
 ## IDEs
 
+*** left
 IDEs are Integrated Development Environments - they let you do development in one place. 
 
-We're using !(RStudio)[] today, but really rate !(SublimeText)[].
+We're using ![R Studio]() today, but really rate ![SublimeTest](SublimeText).
 
+*** right
 IDEs usually have:
 * Editor
 * Compiler or interpreter
@@ -59,10 +60,13 @@ IDEs usually have:
 
 ## GitHub
 
+## Markdown 
 
-## Slide with Plot
+## GitHub Excercise
 
-```{r pressure}
-plot(pressure)
-```
+## Making RStudio play with GitHub
+
+## Literate programming
+
+## Open Science Framework
 
