@@ -49,7 +49,7 @@ Being reproducible is a prerequisite for being replicable; at a minimum your wor
 
 Less than 40% of replications of well-known Psychology studies had significant results:
 
-![](fig/psychology-replication-paper.jpg.png)
+<center><img src="fig/psychology-replication-paper.jpg" height=400></center> 
 "Open Science Collaboration. "Estimating the reproducibility of psychological science." Science 349.6251 (2015): aac4716.
 
 Only 11% of replications of well-known cancer biology studies had significant results. 
