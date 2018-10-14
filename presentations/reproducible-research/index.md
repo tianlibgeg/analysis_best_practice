@@ -45,11 +45,11 @@ Begley, C. Glenn, and Lee M. Ellis. "Drug development: Raise standards for precl
 
 ## Most researchers think there is a problem with reproducibility
 
-*** =left
-- After anti-tuberculosis treatment (up to four different drugs) the liver can become damaged. - There are three types of DILI, type 1 being the focus of this study. 
-- The study sought to discover what the risk factors were (from a number of factors). 
+*** left
 
-*** =right
+<div class="rimage center"><img src="fig/is-there-a-crisis.jpg" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" width="100%" class="plot" /></div>
+
+*** right
 
 Baker, Monya. "1,500 scientists lift the lid on reproducibility." Nature News 533.7604 (2016): 452
 
@@ -57,7 +57,12 @@ Baker, Monya. "1,500 scientists lift the lid on reproducibility." Nature News 53
 ---
 
 ## Most researchers have failed to reproduce a result
-<div class="rimage center"><img src="fig/failed-to-reproduce.jpg" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" width="100%" class="plot" /></div>
+*** left
+
+<div class="rimage center"><img src="fig/failed-to-reproduce.jpg" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" width="100%" class="plot" /></div>
+
+*** right
+
 Of the scientists surveyed, __over 70% of scientists surveyed have experienced failure to reproduce other's results__ and __over 50% have failed to reproduce their own results__.
 
 ---
@@ -75,9 +80,20 @@ Of the scientists surveyed, __over 70% of scientists surveyed have experienced f
 ---
 # Types of reproducibility problems
 
-Next I'll introduce you to some bad analysis practices and how to avoid them. We'll practice this in the following sections and I'll give you a cheat sheet, so no need to memorise them (yet ;)).
+* Data or methods not provided in full.
+* Data Storage
+* Analysis environment
+* P-hacking (and HARKing)
 
 ---
+## Provide your methods and data!
+
+In order for your work to be reproducible, at minimum, you must provide enough information for another researcher to be able to reproduce it.
+
+This requires you to __make your data and methods available!__
+
+---
+
 ## Data Storage
 
 Avoid:
@@ -120,35 +136,71 @@ Solve by:
 ---
 ## P-values
 
-p < 0.05?
+*** left
+What does it mean if p < 0.05?
 
-<div class="rimage center"><img src="fig/dice.jpg" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" width="100%" class="plot" /></div>
+*** right
+<div class="rimage center"><img src="fig/dice.jpg" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" width="100%" class="plot" /></div>
 
 ---
-## How often will we get a false positive?
-* If we are testing one hypothesis?
-* If we are testing 20?
+## Experiments
+*** left
+__Explanation:__
+Rolling a dice = testing a hypothesis (which isn't "true")
+Rolling a 1 => p<0.05 (a false positive)
+Rolling anything else => p>0.05 (a true negative)
 
+__Simulation 1:__
+Roll a 20-sided dice once each. 
+
+*** right
+<div class="rimage center"><img src="fig/forking_paths.jpg" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" width="100%" class="plot" /></div>
 ---
 ## HARKing
 
 HARKing = Hypothesising After Results are Known
-<div class="rimage center"><img src="fig/jellybean_xkcd.jpg" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" width="100%" class="plot" /></div>
+<div class="rimage center"><img src="fig/jellybean_xkcd.jpg" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" width="100%" class="plot" /></div>
 
 ---
 ## P-hacking
 
-<div class="rimage center"><img src="fig/p_values_xkcd.jpg" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" width="100%" class="plot" /></div>
+*** left
+P-hacking is a catch-all term for making p-values appear smaller than they are, e.g.:
+- HARKing
+- Collecting samples until your sample size gives you p < 0.05
+- Choosing a different test to get p<0.05
+
+*** right
+<div class="rimage center"><img src="fig/p_values_xkcd.jpg" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" width="100%" class="plot" /></div>
 
 ---
-## Solutions to p-value problems
-* Registered reports
-* Multi-hypothesis corrections
-* Try simulating your data
+## Solutions to p-hacking
+
+* Pre-registration and ![Registered reports](https://cos.io/rr/)
+* Multi-hypothesis corrections (e.g. ![Bonferroni correction](https://en.wikipedia.org/wiki/Bonferroni_correction))
+* Simulating data.
 
 ---
-## Main causes of irreproducibility
+## Open science badges
 
+*** left
+![Open Science Badges](https://cos.io/our-services/open-science-badges/) are an incentive for researcher's to share data, materials and to preregister their reports. 
+
+They are issued by a growing number of journals (currently ~35).
+
+*** right
+<div class="rimage center"><img src="fig/open-science-badges.jpg" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" width="100%" class="plot" /></div>
+---
+## Summary 
+
+*** left
+Reproducible research is important because:
+* It saves us from bad science.
+* It saves you time when you come back to your work.
+* Its good for your reputation (by avoiding disaster, improving your motivation to do good work, and through open science badges, etc).
+
+*** right
+Main causes of poor reproducibility:
 1. Poor data storage
 2. Poor analysis pipeline
 3. Lack of sharing data/methods
