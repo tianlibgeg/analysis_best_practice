@@ -32,12 +32,12 @@ Being reproducible is a prerequisite for being replicable; at a minimum your wor
 
 ## Reproducibility crisis
 
-Less than 40% of replications of well-known Psychology studies had significant results:
+__Less than 40%__ of replications of well-known Psychology studies had significant results:
 
-<center><img src="fig/psychology-replication-paper.jpg" height=400></center> 
+<div class="rimage center"><img src="fig/psychology-replication-paper.jpg" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" width="100%" class="plot" /></div>
 "Open Science Collaboration. "Estimating the reproducibility of psychological science." Science 349.6251 (2015): aac4716.
 
-Only 11% of replications of well-known cancer biology studies had significant results. 
+Only __11%__ of replications of well-known cancer biology studies had significant results. 
 
 Begley, C. Glenn, and Lee M. Ellis. "Drug development: Raise standards for preclinical cancer research." Nature 483.7391 (2012): 531.
 
@@ -45,14 +45,19 @@ Begley, C. Glenn, and Lee M. Ellis. "Drug development: Raise standards for precl
 
 ## Most researchers think there is a problem with reproducibility
 
-<center><img src="../../presentations/assets/img/reproducibility-intro/is-there-a-crisis.jpeg" height=400></center>
-<center><font size = 2 >Baker, Monya. "1,500 scientists lift the lid on reproducibility." Nature News 533.7604 (2016): 452_</font></center>
+*** =left
+- After anti-tuberculosis treatment (up to four different drugs) the liver can become damaged. - There are three types of DILI, type 1 being the focus of this study. 
+- The study sought to discover what the risk factors were (from a number of factors). 
+
+*** =right
+
+Baker, Monya. "1,500 scientists lift the lid on reproducibility." Nature News 533.7604 (2016): 452
+
 
 ---
 
 ## Most researchers have failed to reproduce a result
-
-<center><img src="../../presentations/assets/img/reproducibility-intro/failed-to-reproduce.jpeg" height=400></center>
+<div class="rimage center"><img src="fig/failed-to-reproduce.jpg" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" width="100%" class="plot" /></div>
 Of the scientists surveyed, __over 70% of scientists surveyed have experienced failure to reproduce other's results__ and __over 50% have failed to reproduce their own results__.
 
 ---
@@ -115,8 +120,9 @@ Solve by:
 ---
 ## P-values
 
-<center><font size=5>p < 0.05</font></center>
-<center><img src="../../presentations/assets/img/reproducibility-intro/dice.jpeg" height=400></center>
+p < 0.05?
+
+<div class="rimage center"><img src="fig/dice.jpg" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" width="100%" class="plot" /></div>
 
 ---
 ## How often will we get a false positive?
@@ -127,11 +133,12 @@ Solve by:
 ## HARKing
 
 HARKing = Hypothesising After Results are Known
-<center><img src="../../presentations/assets/img/jellybean_xkcd.jpeg" height=100></center>
+<div class="rimage center"><img src="fig/jellybean_xkcd.jpg" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" width="100%" class="plot" /></div>
 
 ---
 ## P-hacking
-<center><img src="../../presentations/assets/img/reproducibility-intro/p_values_xkcd.jpeg" height=400></center>
+
+<div class="rimage center"><img src="fig/p_values_xkcd.jpg" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" width="100%" class="plot" /></div>
 
 ---
 ## Solutions to p-value problems
